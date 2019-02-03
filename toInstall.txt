@@ -1,2 +1,8 @@
-npm installl @material-ui/icons
-npm install --save-dev html-webpack-plugin
+redux
+react-redux
+axios
+normalizr
+lodash
+prop-types
+react-scripts
+redux-thunk
