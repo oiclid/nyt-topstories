@@ -37,7 +37,7 @@ module.exports = {
             template: path.join(__dirname, 'public', 'index.html')
         })
     ],
-    devtool: 'cheap-module-eval-source-map', // this helps the browser to point ot the exact file in the console, helps in debugging
+    devtool: 'cheap-module-eval-source-map', 
     devServer: {
         contentBase: path.join(__dirname, 'public'),
         historyApiFallback: true 
