@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './styles/styles.css';
+import './styles/styles.scss';
 
 let HelloWorld = () => {
     return <h1>Hello World!</h1>
 }
 
-ReactDom.render(
+ReactDOM.render(
     <HelloWorld/>,
     document.getElementById('app')
 );
