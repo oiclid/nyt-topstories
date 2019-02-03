@@ -4,34 +4,44 @@
   "description": "SPA to show categorized list of top stories using NYT API, organized by dynamic sections in left navigation to further fetch and show respective list of eof top stories of each section on right side ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "babel-node ./node_modules/webpack/bin/webpack",
+    "start": "babel-node ./node_modules/webpack-dev-server/bin/webpack/webpack-dev-server --open"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com/oiclid/nyt-topstories,git"
+    "url": "git@github.com/oiclid/nyt-topstoriesgit"
   },
+  "keywords": [
+    "New York Times",
+    "Top Stories",
+    "API",
+    "React",
+    "Redux",
+    "Single Page Application"
+  ],
   "author": "oiclid",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
-    "@material-ui/core": "^3.9.1",
-    "react": "^16.7.0",
-    "react-dom": "^16.7.0",
-    "react-router-dom": "^4.3.1"
+    "@material-ui/core": "3.9.1",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-router-dom": "4.3.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.2.2",
-    "@babel/node": "^7.2.2",
-    "@babel/plugin-proposal-class-properties": "^7.3.0",
-    "@babel/preset-env": "^7.3.1",
-    "@babel/preset-react": "^7.0.0",
-    "babel-loader": "^8.0.5",
-    "css-loader": "^2.1.0",
-    "file-loader": "^3.0.1",
-    "node-sass": "^4.11.0",
-    "sass-loader": "^7.1.0",
-    "style-loader": "^0.23.1",
-    "webpack": "^4.29.0",
-    "webpack-cli": "^3.2.1",
-    "webpack-dev-server": "^3.1.14"
+    "@babel/core": "7.2.2",
+    "@babel/node": "7.2.2",
+    "@babel/plugin-proposal-class-properties": "7.3.0",
+    "@babel/preset-env": "7.3.1",
+    "@babel/preset-react": "7.0.0",
+    "babel-loader": "8.0.5",
+    "css-loader": "2.1.0",
+    "file-loader": "3.0.1",
+    "node-sass": "4.11.0",
+    "sass-loader": "7.1.0",
+    "style-loader": "0.23.1",
+    "webpack": "4.29.0",
+    "webpack-cli": "3.2.1",
+    "webpack-dev-server": "3.1.14"
   }
 }
